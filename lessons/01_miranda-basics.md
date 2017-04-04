@@ -1,3 +1,5 @@
+## Miranda Basics
+
 Miranda is a functional language; this means that it works on taking 'some of this data' and producing 'some of that data'. The language places focus on _implementation_, rather than _efficiency_, as, much like other functional languages, it believes that the efficiency of the program can be improved after one has created the functionality (or at least understood how it should work).
 
 Miranda scripts have the `.m` file extension, and, when compiled, will produce a `.x` compiled file. Compiling a Miranda script is automatically done after running the command:
