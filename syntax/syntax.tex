@@ -9,6 +9,8 @@
 
 \begin{document}
 
+\begin{minipage}[t][0pt]{\linewidth}
+
 \section*{Miranda Operators and other Lexical Notation}
 
 \centering
@@ -21,6 +23,8 @@
 	\texttt{-}                      & Subtract/negate operator                          \\ \hline
 	\texttt{*}                      & Multiply operator                                 \\ \hline
 	\texttt{/}                      & Division operator                                 \\ \hline
+	\texttt{div}                    & Integer division operator                         \\ \hline
+	\texttt{mod}                    & Modulus/remainder operator                        \\ \hline
 	\texttt{\^{}}                   & Raise-to-the-power operator                       \\ \hline
 	\hline
 	\texttt{\textasciitilde}        & Logical NOT operator                              \\ \hline
@@ -35,15 +39,21 @@
 	\texttt{<=}                     & Less-than-or-equal-to operator                    \\ \hline
 	\texttt{>=}                     & Greater-than-or-equal-to operator                 \\ \hline
 	\hline
-	\texttt{.}                      & Function composition operator                     \\ \hline
 	\texttt{,}                      & Guard/Case specifier in conditional expressions   \\ \hline
+	\texttt{if}                     & Specifier to evaluate conditional expressions     \\ \hline
+	\texttt{otherwise}              & Specifier for default guards/cases                \\ \hline
 	\texttt{|}                      & Separator in list comprehension                   \\ \hline
-	\texttt{;}                      & Where specifier in list comprehension             \\ \hline
+	\texttt{<-}                     & List comprehension generator                      \\ \hline
+	\texttt{;}                      & Filter specifier in list comprehension            \\ \hline
 	\hline
+	\texttt{.}                      & Function composition operator                     \\ \hline
+	\texttt{where}                  & Clause to specify local definitions               \\ \hline
 	\texttt{:}                      & Append-head operator ("cons")                     \\ \hline
 	\texttt{++}                     & List concatenation operator                       \\ \hline
-	\texttt{!}                      & Indexing operator                                 \\ \hline
-	\texttt{<-}                     & List comprehension generator                      \\ \hline
+	\texttt{-{}-}                   & List subtraction operator                         \\ \hline
+	\texttt{\#}                     & List length/size operator                         \\ \hline
+	\texttt{!}                      & List indexing operator                            \\ \hline
+	\texttt{..}                     & Range operator                                    \\ \hline
 	\hline
 	\texttt{::}                     & Function type specification operator              \\ 
 	                                & Type query operator in interpreter ("has type")   \\ \hline
@@ -53,12 +63,19 @@
 	\texttt{with}                   & Abstract data type signatures declaration         \\ \hline
 	\texttt{()}                     & Empty value in IO () type                         \\ \hline
 	\hline
+	\texttt{show}                   & Represents a value as a string                    \\ \hline
+	\texttt{readvals}               & Reads values from a file                          \\ \hline
+	\texttt{\$+}                    & Reads values from keyboard input                  \\ \hline
+	\hline
 	\texttt{[ and ]}                & List constructors; "," as separator               \\ \hline
 	\texttt{( and )}                & Tuple constructors; "," as separator              \\ 
 	                                & Infix-to-Prefix constructors                      \\ \hline
 	\texttt{\$}                     & Prefix-to-Infix constructor                       \\ \hline
 	\texttt{' and '}                & Literal char constructors                         \\ \hline
 	\texttt{" and "}                & String constructors                               \\ \hline
+	\texttt{type}                   & ???                                               \\ \hline
 \end{tabular}
+
+\end{minipage}
 
 \end{document}
