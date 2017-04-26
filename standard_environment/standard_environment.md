@@ -52,7 +52,7 @@ point, will be around 1e38 for the VAX)
 `or :: [bool]->bool`
 > Logical disjunction of a list of bools
 
-`and :: [bool]->bool` :
+`and :: [bool]->bool`
 > Logical conjunction of a list of bools
 
 `max :: [*]->*`
