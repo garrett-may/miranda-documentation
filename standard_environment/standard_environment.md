@@ -242,7 +242,7 @@ point, will be around 1e38 for the VAX)
 
 > e.g. `entier 3.5` is `3`
 
-> e.g. `entier (3.5)` is `-4`
+> e.g. `entier (-3.5)` is `-4`
 
 > Note: the following rule holds: `a div b = entier (a/b)`
 
